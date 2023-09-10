@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+} 
+[data-testid="slackUserName"] {
+  font-weight: 600;
+  font-family: sans-serif;
+}
+[data-testid="slackDisplayImage"] {
+    border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+}
